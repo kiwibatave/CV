@@ -1,0 +1,65 @@
+body{
+  background: linear-gradient(black, darkviolet);
+}
+
+.jumbotron{
+  text-align: center;
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  font-family: Waree;
+}
+h2{
+  font-style: italic;
+}
+.fa-address-card{
+  color: white;
+  font-size: 50px;
+}
+.fa-address-card:hover{
+  color: lawngreen;
+}
+img{
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.arrow{
+height: 500px;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;animation-timing-function: linear;
+
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.compjquery{
+  width: 500px;
+}
+.ui-widget-header{
+  background: limegreen !important ;
+  border: 1px solid limegreen !important;
+}
+.ui-widget-content{
+  background-color: white !important;
+}
+.ui-progressbar{
+  overflow: visible !important;
+}
+.ui-widget.ui-widget-content{
+  border: 1px solid black !important;
+}
+.ui-progressbar .ui-progressbar-value{
+  margin: inherit !important;
+}
+
